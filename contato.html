@@ -63,20 +63,33 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Serviços que realizamos:</h2>
+                    <h2 class="section-heading">Caso esteja interessados em nossos serviços,
+                                                envie os dados abaixo para oferecer melhor serviço:</h2>
             <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx3ldxtoVYzRcLaBQYvm93mjAc43EpT8eK51CkA/exec">
-              <label for="fname">Nome: </label>
-              <input type="text" id="fname" name="Nome Completo" placeholder="Your name.."> <br>
-              <label for="lname">Email: </label>
-              <input type="text" id="lname" name="Email cadastrado" placeholder="Your last name.."> <br>
-              <label for="country">Country: </label>
-              <select id="country" name="País">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select><br>
-              <label for="subject">Mensagem</label><br>
-              <textarea id="subject" name="Mensagem adicionada" placeholder="Write something.." style="height:170px"></textarea><br>
+              <label for="fname">Seu Nome Completo:</label><br>
+              <input type="text" id="fname" name="Nome Completo" placeholder="Seu nome." rows="1" cols="50"> <br><br>
+              
+              <label for="lname">Email:</label><br>
+              <input type="text" id="lname" name="Email Cadastrado" placeholder="Seu e-mail." rows="1" cols="50"> <br><br>
+
+              <label for="filename">Video ou Foto do Local a ser regularizado:</label><br>
+              <input type="file" id="filename" name="Arquivo Cadastrado" placeholder="Seu arquivo." rows="1" cols="50"> <br><br>
+
+
+              <label for="subject">Escreva a atividade de sua empresa:</label><br>
+              <textarea id="subject" name="Atividade adicionada" placeholder="Escreva suas atividades." rows="4" cols="50"></textarea><br><br>
+
+              <label for="iname">Escreva o número sequencial do IPTU do Imovel a ser regularizado:</label><br>
+              <input type="number" id="iname" name="IPTU Cadastrado" placeholder="Seu IPTU." rows="1" cols="50"> <br><br>
+
+              
+              <label for="wname">WhatsApp:</label><br>
+              <input type="tel" id="wname" name="WhatsApp cadastrado" placeholder="Seu WhatsApp." rows="1" cols="50"> <br><br>
+              
+              <label for="subject">Mensagem:</label><br>
+              <textarea id="subject" name="Mensagem adicionada" placeholder="Deixe sua mensagem conosco." rows="4" cols="50"></textarea><br><br>
+
+
               <input type="submit" value="Submit">
             </form>
 
